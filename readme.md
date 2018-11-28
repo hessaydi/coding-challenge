@@ -1,27 +1,64 @@
-# Laravel PHP Framework
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+## Like & Dislike System in Laravel 5.2 
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
+[![Build Status](https://travis-ci.org/jeanquark/blog-home.svg?branch=master)](https://travis-ci.org/jeanquark/blog-home)
 
-Laravel is accessible, yet powerful, providing tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+This project is a fully functional application based on the bootstrap pricing and the bootstrap 3 [pricing](https://getbootstrap.com/docs/4.1/examples/pricing/) theme. It is written in PHP and uses [Laravel 5.2](https://laravel.com) as a framework.
 
-## Official Documentation
+![homepage](https://github.com/jeanquark/blog-home/raw/master/public/homepage.jpg "Homepage")
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+## Installation
 
-## Contributing
+You need to have a local server working on your computer to run this project locally. I recommand using [Homestead](https://laravel.com/docs/master/homestead) but you can also use [Xampp](https://www.apachefriends.org/fr/index.html), which is less complicated to install. So first make sure a local server is running on your computer. Next create the database on which blog posts will reside (for example using phpmyadmin). Then type the following commands in your favorite CLI (xampp users: make sure your emplacement is the *xampp/htdocs* folder):
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+Clone the repo:
+```
+git clone https://github.com/hessaydi/coding-challenge.git
+```
 
-## Security Vulnerabilities
+Move to the newly created folder and install all dependencies:
+```
+cd blog-home
+composer install
+```
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+Open the .env.example file, edit it to match your database name, username and password (required step) as well as your email credentials (optional, but required for the contact form to work) and save it as .env file. Then build tables with command:
+```
+php artisan migrate
+```
+
+Now fill the tables:
+```
+php artisan db:seed
+```
+
+Generate application key 
+```
+php artisan key:generate
+```
+And then to run you local server 
+
+```
+php artisan serve
+```
+And voilà! Now you should be able to test the application. Go to the login page and enter the provided credentials. Then click on the top nav email address to get to the admin area. Enjoy!
+
+
+
+## Screenshots
+Welcome:
+![Login](https://github.com/jeanquark/blog-home/raw/master/public/login.jpg "Login")
+
+Shops page:
+![Post](https://github.com/jeanquark/blog-home/raw/master/public/post.jpg "Post")
+
+Liked Shops page:
+![Comment](https://github.com/jeanquark/blog-home/raw/master/public/comment.jpg "Comment")
+
+
+
 
 ## License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT).
+Please refer to the [pricing theme](https://getbootstrap.com/docs/4.1/examples/pricing/) license.
+# coding-challenge
