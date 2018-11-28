@@ -28,4 +28,7 @@ class User extends Authenticatable
     {
         return $this->morphedByMany('App\Post', 'likeable')->whereDeletedAt(null);
     }
+    public function getNameAttribute($value) {
+        return ucfirst($value);
+    }
 }

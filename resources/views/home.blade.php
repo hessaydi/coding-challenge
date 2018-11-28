@@ -1,42 +1,30 @@
 @extends('layouts.app')
-
+@section('title')
+    My preferred Shop
+@endsection
 @section('content')
-<div class="container">
-    <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-            <div class="panel panel-default">
-                <div class="panel-heading">All posts</div>
-
-                <div class="panel-body">
-                    @foreach ($posts as $post)
-
-                        <h2>{{ $post->title }} <small>{{ $post->likes()->count() }} <i class="fa fa-thumbs-up"></i></small></h2>
-
-                        @foreach ($post->likes as $user)
-                            {{ $user->name }} likes this !<br>
-                        @endforeach
-
-                        @if ($post->isLiked)
-                            <a href="{{ route('post.like', $post->id) }}">Unlike this shit</a>
-                        @else
-                            <a href="{{ route('post.like', $post->id) }}">Like this awesome post!</a>
-                        @endif
-                    @endforeach
-                </div>
-            </div>
-            <div class="panel panel-default">
-                <div class="panel-heading">My likes</div>
-
-                <div class="panel-body">
-                    @foreach (Auth::user()->likedPosts as $post)
-
-                        <h2>{{ $post->title }}</h2>
-
-                        <a href="{{ route('post.like', $post->id) }}">Unlike this shit</a>
-                    @endforeach
-                </div>
-            </div>
-        </div>
+<div class="container-fluid">
+    <div class="d-flex flex-row-reverse bd-highlight mb-3">
+        <a class="p-3" >Nearby Shops</a>
+        <a class="p-3" href="{{ route('main') }}">My preferred Shop</a>
     </div>
+    <div class="card-deck mb-3 text-center">
+        @foreach (Auth::user()->likedPosts as $post)
+            <div class="card mb-4 shadow-sm">
+
+                <div class="card-header">
+                    <h4 class="my-1 font-weight-normal">{{ $post->title }}</h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title text-muted"><small>You liked this shop !</small> </h1>
+
+                    <a role="button" class="btn btn-lg  btn-outline-danger" href="{{ route('post.like', $post->id) }}">Dislike</a>
+
+                </div>
+
+            </div>
+        @endforeach
+    </div>
+
 </div>
 @endsection

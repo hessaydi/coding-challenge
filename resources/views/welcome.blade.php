@@ -1,17 +1,20 @@
 @extends('layouts.app')
+@section('welcome'))
+    Welcome Page
+@endsection
 
 @section('content')
-<div class="container">
-    <div class="row">
-        <div class="col-md-10 col-md-offset-1">
-            <div class="panel panel-default">
-                <div class="panel-heading">Welcome</div>
+    <div class="container-fluid">
+    <div class="pricing-header px-3 py-3 pt-md-5 pb-md-4 mx-auto text-center">
+        <h1 class="display-4">Welcome</h1>
+        <h3 >
+            Hello guys, there is the Coding Challenge.I hope you enjoy it.
+        </h3>
 
-                <div class="panel-body">
-                    Your Application's Landing Page.
-                </div>
-            </div>
-        </div>
+
+        <p>
+            <a href="{{ route('main') }}" role="button " class="btn btn-success btn-lg my-2">Shops page</a>
+        </p>
     </div>
-</div>
+    </div>
 @endsection

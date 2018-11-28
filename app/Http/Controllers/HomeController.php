@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Post;
+use Illuminate\View\View;
 
 class HomeController extends Controller
 {
@@ -26,6 +27,16 @@ class HomeController extends Controller
         $posts = Post::all();
 
         return view('home')
+            ->with('posts', $posts);
+    }
+
+    public function master()
+    {
+        return view('vendor.master');
+    }
+    public function main(){
+        $posts = Post::all();
+        return view('articles')
             ->with('posts', $posts);
     }
 }

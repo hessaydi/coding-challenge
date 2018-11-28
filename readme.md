@@ -46,7 +46,7 @@ And voilà! Now you should be able to test the application. Go to the login page
 
 ## Screenshots
 Welcome:
-![Login](https://github.com/jeanquark/blog-home/raw/master/public/login.jpg "Login")
+![Home](https://github.com/hessaydi/coding-challenge/screenshots/home.png "Login")
 
 Shops page:
 ![Post](https://github.com/jeanquark/blog-home/raw/master/public/post.jpg "Post")
