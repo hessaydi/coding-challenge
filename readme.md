@@ -60,4 +60,4 @@ Liked Shops page:
 ## License
 
 Please refer to the [pricing theme](https://getbootstrap.com/docs/4.1/examples/pricing/) license.
-# coding-challenge
+
