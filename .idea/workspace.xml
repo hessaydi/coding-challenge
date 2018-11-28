@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="609f8d8d-fb1c-4667-85ff-3d82589bb32a" name="Default Changelist" comment="" />
+    <list default="true" id="609f8d8d-fb1c-4667-85ff-3d82589bb32a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +46,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="1" />
-          <entry key="md" value="258" />
+          <entry key="md" value="277" />
           <entry key="php" value="2040" />
         </counts>
       </usages-collector>
@@ -52,7 +54,7 @@
         <counts>
           <entry key="Blade" value="1689" />
           <entry key="JSON" value="1" />
-          <entry key="Markdown" value="258" />
+          <entry key="Markdown" value="277" />
           <entry key="PHP" value="351" />
         </counts>
       </usages-collector>
@@ -100,8 +102,8 @@
         <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="217">
-                <caret line="48" column="51" lean-forward="true" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
+              <first_editor relative-caret-position="156">
+                <caret line="48" column="90" selection-start-line="48" selection-start-column="90" selection-end-line="48" selection-end-column="90" />
               </first_editor>
               <second_editor />
             </state>
@@ -312,12 +314,12 @@
       <updated>1543350869445</updated>
       <workItem from="1543350871816" duration="18253000" />
       <workItem from="1543371772498" duration="283000" />
-      <workItem from="1543372096666" duration="7217000" />
+      <workItem from="1543372096666" duration="7799000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25753000" />
+    <option name="totallyTimeSpent" value="26335000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="42" y="23" width="1400" height="860" extended-state="0" />
@@ -491,8 +493,8 @@
     <entry file="file://$PROJECT_DIR$/readme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="217">
-            <caret line="48" column="51" lean-forward="true" selection-start-line="48" selection-start-column="51" selection-end-line="48" selection-end-column="51" />
+          <first_editor relative-caret-position="156">
+            <caret line="48" column="90" selection-start-line="48" selection-start-column="90" selection-end-line="48" selection-end-column="90" />
           </first_editor>
           <second_editor />
         </state>

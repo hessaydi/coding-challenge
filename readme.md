@@ -46,13 +46,13 @@ And voilà! Now you should be able to test the application. Go to the login page
 
 ## Screenshots
 Welcome:
-![Home](https://github.com/hessaydi/coding-challenge/screenshots/home.png "Login")
+![Home](https://github.com/hessaydi/coding-challenge/raw/master/screenshots/home.png "Home")
 
 Shops page:
-![Post](https://github.com/jeanquark/blog-home/raw/master/public/post.jpg "Post")
+![Post](https://github.com/hessaydi/coding-challenge/raw/master/screenshots/shops.png "Shops")
 
 Liked Shops page:
-![Comment](https://github.com/jeanquark/blog-home/raw/master/public/comment.jpg "Comment")
+![Comment](https://github.com/hessaydi/coding-challenge/raw/master/screenshots/liked.png "Comment")
 
 
 
