@@ -26,17 +26,14 @@ class HomeController extends Controller
     {
         $posts = Post::all();
 
-        return view('home')
+        return view('shops')
             ->with('posts', $posts);
     }
 
-    public function master()
-    {
-        return view('vendor.master');
-    }
+
     public function main(){
         $posts = Post::all();
-        return view('articles')
+        return view('liked')
             ->with('posts', $posts);
     }
 }

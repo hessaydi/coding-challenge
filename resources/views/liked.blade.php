@@ -5,8 +5,8 @@
 @section('content')
 <div class="container-fluid">
     <div class="d-flex flex-row-reverse bd-highlight mb-3">
-        <a class="p-3" >Nearby Shops</a>
-        <a class="p-3" href="{{ route('main') }}">My preferred Shop</a>
+        <a class="p-3" href="{{ route('home') }}">Nearby Shops</a>
+        <a class="p-3" >My preferred Shop</a>
     </div>
     <div class="card-deck mb-3 text-center">
         @foreach (Auth::user()->likedPosts as $post)
