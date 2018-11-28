@@ -17,7 +17,7 @@ git clone https://github.com/hessaydi/coding-challenge.git
 
 Move to the newly created folder and install all dependencies:
 ```
-cd blog-home
+cd coding-challenge
 composer install
 ```
 
