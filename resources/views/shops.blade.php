@@ -6,8 +6,8 @@
 @section('content')
     <div class="container-fluid">
         <div class="d-flex flex-row-reverse bd-highlight mb-3">
-            <a class="p-3" >Nearby Shops</a>
             <a class="p-3" href="{{ route('main') }}" >My preferred Shop</a>
+            <a class="p-3" >Nearby Shops</a>
         </div>
         <div class="card-deck mb-3 text-center">
             @foreach ($posts as $post)
