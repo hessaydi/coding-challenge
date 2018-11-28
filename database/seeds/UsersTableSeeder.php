@@ -18,6 +18,11 @@ class UsersTableSeeder extends Seeder
             'email'    => 'hessaydi@gmail.com',
             'password' => Hash::make('123456'),
         ]);
+        User::create([
+            'name'     => 'demo',
+            'email'    => 'demo@demo.com',
+            'password' => Hash::make('223112'),
+        ]);
 
     }
 }
