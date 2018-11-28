@@ -5,7 +5,6 @@
 
 This project is a fully functional application based on the bootstrap pricing and the bootstrap 3 [pricing](https://getbootstrap.com/docs/4.1/examples/pricing/) theme. It is written in PHP and uses [Laravel 5.2](https://laravel.com) as a framework.
 
-![homepage](https://github.com/jeanquark/blog-home/raw/master/public/homepage.jpg "Homepage")
 
 ## Installation
 
