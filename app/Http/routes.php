@@ -18,7 +18,6 @@ Route::get('/', function () {
 Route::auth();
 
 Route::get('/home', ['as' => 'home', 'uses' =>'HomeController@index']);
-Route::get('/master', 'HomeController@master')->name('master');
 Route::get('/main', ['as' => 'main', 'uses' => 'HomeController@main']);
 
 Route::get('post/like/{id}', ['as' => 'post.like', 'uses' => 'LikeController@likePost']);
