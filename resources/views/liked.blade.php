@@ -1,7 +1,6 @@
 @extends('layouts.app')
-@section('title')
-    My preferred Shop
-@endsection
+@section('title','My preferred Shop')
+
 @section('content')
 <div class="container-fluid">
     <div class="d-flex flex-row-reverse bd-highlight mb-3">
