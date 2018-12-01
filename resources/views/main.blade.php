@@ -13,7 +13,7 @@
 
 
         <p>
-            <a href="{{ route('main') }}" role="button " class="btn btn-success btn-lg my-2">Shops page</a>
+            <a href="{{ route('home') }}" role="button " class="btn btn-success btn-lg my-2">Shops page</a>
         </p>
     </div>
     </div>
