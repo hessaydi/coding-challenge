@@ -9,7 +9,7 @@ This project is a fully functional application based on the bootstrap pricing an
 
 ## Installation
 
-You need to have a local server working on your computer to run this project locally. I recommend using [Homestead](https://laravel.com/docs/master/homestead) but you can also use [Xampp](https://www.apachefriends.org/fr/index.html), which is less complicated to install. So first make sure a local server is running on your computer. Next create the database on which blog posts will reside (for example using Phpmyadmin). Then type the following commands in your favorite CLI (XAMPP users: make sure your emplacement is the *xampp/htdocs* folder):
+You need to have a local server working on your computer to run this project locally. I recommend using [Homestead](https://laravel.com/docs/master/homestead) but you can also use [Xampp](https://www.apachefriends.org/fr/index.html), which is less complicated to install. So first make sure a local server is running on your computer. Next create the database on which blog posts will reside (for example using Phpmyadmin). Then type the following commands in your favorite CLI (Xampp users: make sure your emplacement is the *xampp/htdocs* folder):
 
 Clone the repo:
 ```
