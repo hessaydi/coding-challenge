@@ -1,5 +1,5 @@
 
-## Like & Dislike System in Laravel 5.2 
+## Like & Dislike System in Laravel 5.2
 
 
 [![Build Status](https://travis-ci.org/jeanquark/blog-home.svg?branch=master)](https://travis-ci.org/jeanquark/blog-home)
@@ -32,11 +32,11 @@ Now fill the tables:
 php artisan db:seed
 ```
 
-Generate application key 
+Generate application key
 ```
 php artisan key:generate
 ```
-And then to run you local server 
+And then to run you local server
 
 ```
 php artisan serve
@@ -61,4 +61,3 @@ Liked Shops page:
 ## License
 
 Please refer to the [pricing theme](https://getbootstrap.com/docs/4.1/examples/pricing/) license.
-
