@@ -9,13 +9,13 @@ This project is a fully functional application based on the bootstrap pricing an
 
 ## Installation
 
-You need to have a local server working on your computer to run this project locally. I recommand using [Homestead](https://laravel.com/docs/master/homestead) but you can also use [Xampp](https://www.apachefriends.org/fr/index.html), which is less complicated to install. So first make sure a local server is running on your computer. Next create the database on which blog posts will reside (for example using phpmyadmin). Then type the following commands in your favorite CLI (xampp users: make sure your emplacement is the *xampp/htdocs* folder):
+You need to have a local server working on your computer to run this project locally. I recommend using [Homestead](https://laravel.com/docs/master/homestead) but you can also use [Xampp](https://www.apachefriends.org/fr/index.html), which is less complicated to install. So first make sure a local server is running on your computer. Next create the database on which blog posts will reside (for example using Phpmyadmin). Then type the following commands in your favorite CLI (XAMPP users: make sure your emplacement is the *xampp/htdocs* folder):
 
 Clone the repo:
 ```
 git clone https://github.com/hessaydi/coding-challenge.git
 ```
-
+s
 Move to the newly created folder and install all dependencies:
 ```
 cd coding-challenge
